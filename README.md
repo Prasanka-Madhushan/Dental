@@ -7,18 +7,14 @@ A comprehensive web application designed to streamline the process of booking de
 - **Patient Registration and Login:** Secure patient accounts with authentication.
 - **Appointment Scheduling & Management:** Users can book, view, and manage appointments.
 - **Admin Dashboard:** Administrative interface for managing appointments, patient data, and system settings.
-- **Email Notifications:** Automated email reminders for upcoming appointments.
 - **Responsive Design:** Optimized for both desktop and mobile devices.
-- **Secure Authentication:** Utilizes JSON Web Tokens (JWT) for secure user authentication.
 
 ## Technologies Used
 
 - **Frontend:** React.js
 - **Backend:** Node.js with Express.js
-- **Database:** MongoDB Atlas
-- **Authentication:** JWT (JSON Web Tokens)
+- **Database:** MongoDB Compass
 - **Styling:** Tailwind CSS
-- **Deployment:** Vercel (Frontend), Heroku (Backend)
 
 ## Installation
 
@@ -27,8 +23,7 @@ A comprehensive web application designed to streamline the process of booking de
 Before you begin, ensure you have the following installed on your system:
 
 - [Node.js](https://nodejs.org/) and npm (Node Package Manager)
-- A [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account
-- Vercel and Heroku accounts for deployment
+- A [MongoDB Compass](https://www.mongodb.com/compass) account
 
 ### Steps to Set Up the Project
 
@@ -76,16 +71,19 @@ To run the application locally, follow these steps:
    npm run dev
 
 ### Accessing the Application
+
 - **Client:** http://localhost:3000
 - **Admin Dashboard:** http://localhost:3000/admindash
 
 ## Contributing
+
 Contributions are welcome! If you'd like to contribute, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Acknowledgments
+
 - **Frameworks & Libraries:** React.js, Node.js, Tailwind CSS, Express.js
-- **Database:** MongoDB Atlas
-- **Deployment:** Vercel, Heroku
+- **Database:** MongoDB Compass
